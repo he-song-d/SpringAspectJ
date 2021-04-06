@@ -1,6 +1,4 @@
 package com.hbu.service.imp;
-
-
 import com.hbu.aspect.Log;
 import com.hbu.service.BankService;
 import org.springframework.beans.factory.annotation.Autowired;

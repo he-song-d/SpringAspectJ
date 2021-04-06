@@ -1,9 +1,6 @@
 package com.hbu.service;
-
 import com.hbu.aspect.Log;
-
 import java.util.List;
-
 public interface BankService {
 
     //存钱、
