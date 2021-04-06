@@ -1,6 +1,6 @@
-package com.hbu.service.imp;
-import com.hbu.aspect.Log;
-import com.hbu.service.BankService;
+package com.hbeu.service.imp;
+import com.hbeu.aspect.Log;
+import com.hbeu.service.BankService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -21,7 +21,7 @@ public class BankServiceImp implements BankService {
     private double money;
 
     //设置两个默认的用户
-    static List<Log> stringList = Arrays.asList(new Log("张三", 500), new Log("李四", 900));
+    static List<Log> stringList = Arrays.asList(new Log("小白", 600), new Log("小花", 1000));
 
 
     public BankServiceImp() {
@@ -71,9 +71,9 @@ public class BankServiceImp implements BankService {
     }
 
 
-    //取钱
-    @Override
-    public List<Log> mulit(String username, double m) {
+    //取钱l
+
+    public List<Log> mul(String username, double m) {
 
         for (Log log1 : stringList) {
             if (log1.getUsername().equals(username)) {
@@ -87,7 +87,7 @@ public class BankServiceImp implements BankService {
 
     //转账
     @Override
-    public List<Log> TransMoey(String ausername, String musername, double m) {
+    public List<Log> Trans(String ausername, String musername, double m) {
         List<Log> logs = new ArrayList<>();
         for (Log log1 : stringList) {
             //判断余额增加的用户

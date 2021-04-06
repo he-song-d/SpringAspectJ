@@ -1,15 +1,10 @@
-package com.hbu.aspect;
-
+package com.hbeu.aspect;
 import org.springframework.stereotype.Component;
 
 import java.io.Serializable;
-
-
 //日志
 @Component
 public class Log implements Serializable {
-
-
     private String username;
     private double money;
 

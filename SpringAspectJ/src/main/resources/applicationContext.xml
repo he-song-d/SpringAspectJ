@@ -12,6 +12,6 @@
        http://www.springframework.org/schema/aop/spring-aop.xsd
 ">
 
-    <context:component-scan base-package="com.hbu"/>
+    <context:component-scan base-package="com.hbeu"/>
     <aop:aspectj-autoproxy/>
 </beans>
