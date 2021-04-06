@@ -27,6 +27,6 @@ public class Test {
     @org.junit.Test
     public void test03(){
         //存钱
-        bankService.Trans("小白","小花",100);
+        bankService.Trans("小白","小花",400);
     }
 }
